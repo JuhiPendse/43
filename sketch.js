@@ -27,6 +27,8 @@ function draw() {
   fill("white");
   text("Score: " + score, 450, 50);
 // add code for changing the background to the treasure background
+ console.log(score)
+
 if(score === 3) {
   clear();
   background(bg2)

@@ -31,6 +31,7 @@ class Security {
 
         this.button1.mousePressed(() => {
             if(system.authenticate(accessCode1,this.access1.value())){
+                console.log("inside if")
                 this.button1.hide();
                 this.access1.hide();
                 score++;
